@@ -1,12 +1,8 @@
 import React from "react";
-import axios from 'axios';
 import "./Home.css";
 // import close from "../../close.svg";
 // import { transformLayersToAreas } from "../../Utilities/LocationHelper"
 
-const mainAxios = axios.create({
-    baseURL: 'http://localhost:5000/'
-});
 
 export default function Home(props) {
   

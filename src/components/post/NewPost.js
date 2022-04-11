@@ -1,22 +1,19 @@
 import { useContext, useState } from "react";
 import "./NewPost.css";
-import axios from "axios";
 import { UserContext } from "../../UserContext";
-const mainAxios = axios.create({
-    baseURL: 'http://localhost:5000/'
-});
 
-const createPost = async (payload) => {
-    console.log("Creating post payload", payload);
+
+// const createPost = async (payload) => {
+//     console.log("Creating post payload", payload);
     
-    mainAxios.post('/api/posts', payload)
-        .then(function (response) {
-            console.log(response);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-}
+//     mainAxios.post('/api/posts', payload)
+//         .then(function (response) {
+//             console.log(response);
+//         })
+//         .catch(function (error) {
+//             console.log(error);
+//         });
+// }
 export default function NewPost(props) {
     const { user } = useContext(UserContext);
     const [body, setBody] = useState("")

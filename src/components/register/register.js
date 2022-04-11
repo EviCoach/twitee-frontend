@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import axios from 'axios';
 import "./RegisterForm.css";
-import { UserContext } from "../../UserContext";
 // import close from "../../close.svg";
 // import { transformLayersToAreas } from "../../Utilities/LocationHelper"
 
@@ -11,7 +10,7 @@ const mainAxios = axios.create({
 
 
 export default function RegisterForm(props) {
-    const {user, setUser} = useContext(UserContext);
+    // const {user, setUser} = useContext(UserContext);
     // const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState(false);
