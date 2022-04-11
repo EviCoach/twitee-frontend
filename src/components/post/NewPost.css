@@ -1,0 +1,34 @@
+.new-post {
+  margin: auto;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.new-post-form {
+  margin: auto;
+}
+#new-post-textarea {
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+}
+#NewPost{
+   /* flex-direction: column;
+  justify-content: center; */
+  /* position: absolute; */
+  margin: 20;
+  /* margin-top: 40px; */
+  /* z-index: 1000; */
+  /* top: 20px; */
+  /* right: 100px; */
+  width: 400px;
+  min-width: 100px;
+  /* min-height: 400px; */
+  padding: 10px 20px 20px 20px;
+  border-radius: 6px;
+  /* box-shadow: 0px 8px 36px #ccc; */
+  /* background-color: #fefefe; */
+}

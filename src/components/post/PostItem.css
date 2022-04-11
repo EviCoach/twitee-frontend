@@ -1,0 +1,28 @@
+#PostBody{
+    
+}
+
+.PostItem{
+    margin-left: 20px;
+}
+
+#PostActions{
+    display: flex;
+    margin-right: 10px;
+}
+
+div .PostAction{
+    margin-right: 8px;
+    margin-top: 15px;
+    padding: 5px;
+    border: 2px solid black;
+} 
+
+.PostComments{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.PostComment{
+    margin-top: 10px;
+}
