@@ -4,7 +4,7 @@ import "./PostItem.css";
 import axios from "axios";
 import { UserContext } from "../../UserContext";
 const mainAxios = axios.create({
-    baseURL: 'http://localhost:5000/'
+    baseURL: process.env.BASE_URL
 });
 
 export default function PostItem(props) {

@@ -7,7 +7,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 // import { transformLayersToAreas } from "../../Utilities/LocationHelper"
 
 const mainAxios = axios.create({
-    baseURL: 'http://localhost:5000/'
+    baseURL: process.env.BASE_URL
 });
 
 export default function LoginForm(props) {

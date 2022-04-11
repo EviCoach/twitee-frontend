@@ -5,7 +5,7 @@ import "./RegisterForm.css";
 // import { transformLayersToAreas } from "../../Utilities/LocationHelper"
 
 const mainAxios = axios.create({
-    baseURL: 'http://localhost:5000/'
+    baseURL: process.env.BASE_URL
 });
 
 

@@ -8,6 +8,7 @@ import ErrorPage from './components/error/Error';
 import { UserContext } from './UserContext';
 import ProtectedRoutes from './ProtectedRoutes';
 import Posts from './components/posts/Posts';
+require('dotenv').config()
 
 function App() {
   // const [isLogin, setIsLogin] = useState(true);
